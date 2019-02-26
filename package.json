@@ -1,0 +1,22 @@
+{
+  "name": "lintoproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss css/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamLeha/linto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamLeha/linto/issues"
+  },
+  "homepage": "https://github.com/IamLeha/linto#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
