@@ -79,7 +79,16 @@ header{
     &__box{
         width: 40%;
         height: 150px;
-        background: #000;
+        background: rgb(214, 214, 214);
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    &__box-txt{
+        align-self: center;
+    }
+    &__box-arrow img{
+        -webkit-transform: rotate(-90deg);
     }
 
     &__media{
@@ -89,28 +98,28 @@ header{
 }
 
 .first-slide{
-    background: rgb(190, 182, 182);
+    background: #fff;
     height: 100vh;
     display: flex !important;
     justify-content: space-around;
     align-items: center;
 }
 .second-slide{
-    background: rgb(211, 211, 124);
+    background: rgb(218, 204, 204);
     height: 100vh;
     display: flex !important;
     justify-content: space-around;
     align-items: center;
 }
 .third-slide{
-    background: rgb(120, 255, 203);
+    background: rgb(178, 184, 192);
     height: 100vh;
     display: flex !important;
     justify-content: space-around;
     align-items: center;
 }
 .fourth-slide{
-    background: rgb(175, 154, 154);
+    background: rgb(195, 189, 201);
     height: 100vh;
     display: flex !important;
     justify-content: space-around;

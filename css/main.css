@@ -60,33 +60,40 @@ header {
   .bottom__box {
     width: 40%;
     height: 150px;
-    background: #000; }
+    background: #d6d6d6;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch; }
+  .bottom__box-txt {
+    align-self: center; }
+  .bottom__box-arrow img {
+    -webkit-transform: rotate(-90deg); }
   .bottom__media {
     margin: 0 3% 3% 0; }
 
 .first-slide {
-  background: #beb6b6;
+  background: #fff;
   height: 100vh;
   display: flex !important;
   justify-content: space-around;
   align-items: center; }
 
 .second-slide {
-  background: #d3d37c;
+  background: #dacccc;
   height: 100vh;
   display: flex !important;
   justify-content: space-around;
   align-items: center; }
 
 .third-slide {
-  background: #78ffcb;
+  background: #b2b8c0;
   height: 100vh;
   display: flex !important;
   justify-content: space-around;
   align-items: center; }
 
 .fourth-slide {
-  background: #af9a9a;
+  background: #c3bdc9;
   height: 100vh;
   display: flex !important;
   justify-content: space-around;
