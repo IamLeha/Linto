@@ -4,6 +4,15 @@
   font-family: 'Roboto', sans-serif;
   text-decoration: none; }
 
+.wrapper {
+  width: 100%;
+  overflow: hidden; }
+
+header {
+  position: absolute;
+  z-index: 1000;
+  width: 100%; }
+
 .header-container {
   width: 100%;
   display: flex;
@@ -40,3 +49,45 @@
     color: #fff;
     text-align: center;
     font-size: 11px; }
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; }
+  .bottom__box {
+    width: 40%;
+    height: 150px;
+    background: #000; }
+  .bottom__media {
+    margin: 0 3% 3% 0; }
+
+.first-slide {
+  background: #beb6b6;
+  height: 100vh;
+  display: flex !important;
+  justify-content: space-around;
+  align-items: center; }
+
+.second-slide {
+  background: #d3d37c;
+  height: 100vh;
+  display: flex !important;
+  justify-content: space-around;
+  align-items: center; }
+
+.third-slide {
+  background: #78ffcb;
+  height: 100vh;
+  display: flex !important;
+  justify-content: space-around;
+  align-items: center; }
+
+.fourth-slide {
+  background: #af9a9a;
+  height: 100vh;
+  display: flex !important;
+  justify-content: space-around;
+  align-items: center; }
