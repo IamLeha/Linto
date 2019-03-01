@@ -217,3 +217,48 @@ main {
     width: 50%;
     align-self: flex-end;
     margin-bottom: 5%; }
+
+.container-fluid {
+  width: 100%; }
+
+.grow {
+  width: 100% !important; }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 5%; }
+  .container__title {
+    margin: 5% 0 3% 10%;
+    width: 30%; }
+  .container__title h1::before {
+    content: "";
+    display: block;
+    width: 140px;
+    border-top: 2px solid #000; }
+  .container__title h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    border-top: 2px solid #000; }
+  .container__main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  .container__main__card {
+    width: 45%;
+    height: 260px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 0;
+    border: 1px solid silver; }
+  .container__main__card p {
+    margin-top: 10%; }
+  .container__main__card p::after {
+    content: "";
+    display: block;
+    width: 50px;
+    border-bottom: 2px solid #000; }
