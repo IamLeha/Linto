@@ -7,5 +7,3 @@ $('.slider').slick({
 $(".slider").on('afterChange', function (event, slick, currentSlide) {
     $("#number").text(currentSlide + 1);
 });
-
-

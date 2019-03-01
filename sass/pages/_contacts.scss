@@ -1,0 +1,70 @@
+.wrap{
+    width: 100%;
+    
+}
+main{
+    width: 100%;
+}
+.main-container{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+    &__title{
+        margin-top: 7%;
+        width: 40%;
+    }
+    &__title h3{
+        text-align: center;
+    }
+    &__title h3::after{
+        content: "";
+        width: 110px;
+        display: block;
+        border-bottom: 1px solid #000;
+        margin: 0 auto; 
+    }
+
+    &__title h1{
+        content: "";
+        display: block;
+        width: 200px;
+        border-top: 1px solid #000;
+    }
+
+    &__info{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__info-left h4::after{
+        content: "";
+        width: 60px;
+        display: block;
+        border-bottom: 1px solid #000;
+        margin: 0 auto; 
+    }
+
+    &__info-right h3{
+        margin-top: 10%;
+    }
+
+    &__box{
+        margin-top: 10%;
+        background: rgb(224, 187, 187);
+        transform: rotate(-90deg);
+        width: max-content;
+        padding: 2%;
+        margin-left: 16%;
+    }
+
+    &__txt{
+        position: absolute;
+        bottom: 5%;
+        right: 15%;
+    }
+}
+
