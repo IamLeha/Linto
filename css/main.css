@@ -173,10 +173,11 @@ main {
 
 .main-container {
   width: 70%;
-  height: auto;
+  min-height: 100vh;
   margin: 0 auto;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: space-between; }
   .main-container__title {
     margin-top: 7%;
     width: 40%; }
@@ -213,6 +214,6 @@ main {
     padding: 2%;
     margin-left: 16%; }
   .main-container__txt {
-    position: absolute;
-    bottom: 5%;
-    right: 15%; }
+    width: 50%;
+    align-self: flex-end;
+    margin-bottom: 5%; }
