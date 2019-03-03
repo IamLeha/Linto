@@ -20,7 +20,8 @@ header {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  height: 119px; }
   .header-container__left {
     width: 30%;
     display: -webkit-box;
@@ -218,6 +219,75 @@ main {
     align-self: flex-end;
     margin-bottom: 5%; }
 
+.container-fluid-colection {
+  width: 100%; }
+
+.container-col {
+  width: 100%; }
+  .container-col__title {
+    width: 95%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-between; }
+  .container-col__title-left {
+    width: 50%;
+    margin-left: 12%; }
+  .container-col__title-left h2 {
+    font-size: 45px; }
+  .container-col__title-left h3 {
+    text-align: center;
+    font-size: 24px; }
+  .container-col__title-left h3::after {
+    content: "";
+    display: block;
+    width: 250px;
+    border-top: 2px solid #000;
+    margin-left: 37%; }
+  .container-col__title-left h2::before {
+    content: "";
+    display: block;
+    width: 250px;
+    border-top: 2px solid #000; }
+  .container-col__title p {
+    transform: rotate(90deg);
+    font-size: 12px; }
+  .container-col__main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    background: #d8d8d8; }
+  .container-col__main-line {
+    width: 95%;
+    display: flex;
+    justify-content: space-between; }
+  .container-col__main-line:not(:first-child) {
+    margin-top: -6%; }
+  .container-col__main-card {
+    padding: 1%;
+    width: 12%;
+    height: 200px;
+    display: flex;
+    background: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .container-col__main-card p {
+    margin-top: 9%;
+    margin-left: -10%; }
+  .container-col__main-card img {
+    width: 120px;
+    display: none; }
+  .container-col__main-card:hover svg {
+    display: none; }
+  .container-col__main-card:hover img {
+    display: block; }
+  .container-col__main-card:nth-child(2n) {
+    margin-top: 10%; }
+
+.container__main-colection-card p {
+  text-align: center; }
+
 .container-fluid {
   width: 100%; }
 
@@ -230,7 +300,7 @@ main {
   padding-bottom: 5%; }
   .container__title {
     margin: 5% 0 3% 10%;
-    width: 30%; }
+    width: 200px; }
   .container__title h1::before {
     content: "";
     display: block;
@@ -240,7 +310,8 @@ main {
     content: "";
     display: block;
     width: 60px;
-    border-top: 2px solid #000; }
+    border-top: 2px solid #000;
+    float: right; }
   .container__main {
     display: flex;
     justify-content: space-between;

@@ -14,7 +14,7 @@
 
     &__title{
         margin:5% 0 3% 10%;
-        width: 30%;     
+        width: 200px;   
     }
 
     &__title h1::before{
@@ -29,6 +29,7 @@
         display:block;
         width: 60px;
         border-top: 2px solid #000;
+        float: right;
     }
 
 
