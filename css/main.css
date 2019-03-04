@@ -2,7 +2,8 @@
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: 350; }
 
 .wrapper {
   width: 100%;
@@ -166,6 +167,68 @@ header {
   -ms-flex-align: center;
   align-items: center; }
 
+.container-fluid-about {
+  width: 100%; }
+
+.container-about {
+  width: 85%;
+  margin: 4% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .container-about__txt {
+    display: flex;
+    flex-wrap: wrap; }
+  .container-about__txt-top {
+    width: 100%; }
+  .container-about__txt-top h1 {
+    font-size: 26px; }
+  .container-about__txt-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; }
+  .container-about__txt-bottom-right {
+    width: 50%; }
+  .container-about__txt-bottom-left {
+    width: 40%; }
+  .container-about__txt-bottom-left h2 {
+    font-size: 20px;
+    margin-left: 10%; }
+  .container-about__txt-bottom-left h2::before {
+    content: "";
+    display: block;
+    width: 150px;
+    border-top: 1px solid #000;
+    margin-top: 4%;
+    margin-left: -11%;
+    margin-bottom: 3%; }
+  .container-about__middle {
+    align-self: center;
+    margin: 5% auto;
+    width: 65%; }
+  .container-about__middle__title h2 {
+    margin-left: 20%; }
+  .container-about__middle__list-item {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5%; }
+  .container-about__middle__list-item p {
+    text-align: left;
+    margin-left: 10%; }
+  .container-about__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; }
+  .container-about__bottom-left p::after {
+    content: "";
+    display: block;
+    width: 50px;
+    border-top: 1px solid #000;
+    margin-top: 10%; }
+  .container-about__bottom-right p {
+    margin-top: 5%; }
+
 .wrap {
   width: 100%; }
 
@@ -255,8 +318,7 @@ main {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background: white;
-    background: #d8d8d8; }
+    background: #bbbbbb; }
   .container-col__main-line {
     width: 95%;
     display: flex;
