@@ -489,3 +489,95 @@ main {
     display: block;
     width: 50px;
     border-bottom: 2px solid #000; }
+
+.container-fluid-rep {
+  width: 100%; }
+
+.container-rep {
+  width: 100%;
+  overflow: hidden; }
+  .container-rep__card {
+    width: 100%;
+    float: right; }
+  .container-rep__title {
+    width: 30%;
+    margin: 4% 0;
+    margin-left: 24%; }
+  .container-rep__title h3::after {
+    content: "";
+    display: block;
+    width: 70px;
+    border-top: 2px solid #000;
+    margin-left: 45%; }
+  .container-rep__title h3 {
+    margin-left: 50%; }
+  .container-rep__title h1::before {
+    content: "";
+    display: block;
+    width: 250px;
+    border-bottom: 2px solid #000; }
+  .container-rep__card-item {
+    display: flex;
+    flex-direction: column;
+    margin: 7% 7% 0 0;
+    padding-right: 5%;
+    border-right: 45px solid silver;
+    width: 85%; }
+  .container-rep__card-item-title {
+    display: flex;
+    justify-content: space-between; }
+  .container-rep__card-item-txt {
+    margin-top: 5%; }
+  .container-rep__card-item-txt p {
+    margin-top: 3%; }
+  .container-rep__card-item-txt p::after {
+    content: "";
+    display: block;
+    width: 50px;
+    border-bottom: 2px solid #000;
+    margin-top: 1%; }
+  .container-rep__card-item-social {
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; }
+  .container-rep__card-item-social a img {
+    width: 24px; }
+
+.block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7%; }
+
+.block-txt {
+  width: 50%; }
+
+.block-contr {
+  background: silver;
+  width: 250px;
+  text-align: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(90deg);
+  margin-left: -6%;
+  margin-top: 7%; }
+
+.block-maps {
+  border-left: 45px solid silver;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  .block-maps__txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    text-align: end; }
+  .block-maps__img {
+    background: url(../../img/map.png);
+    width: 60%;
+    height: 350px; }
