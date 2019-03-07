@@ -1,0 +1,24 @@
+.container-fluid-sto{
+    width: 100%;
+}
+
+.container-sto{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    
+
+    &__left{
+        width: 40%;
+        background: gray;
+    }
+
+    &__left img{
+        width: 100%;
+    }
+
+    &__right{
+        width: 40%;
+        background: gold;
+    }
+}

@@ -552,6 +552,22 @@ main {
     width: 60%;
     height: 350px; }
 
+.container-fluid-sto {
+  width: 100%; }
+
+.container-sto {
+  width: 90%;
+  display: flex;
+  justify-content: space-between; }
+  .container-sto__left {
+    width: 40%;
+    background: gray; }
+  .container-sto__left img {
+    width: 100%; }
+  .container-sto__right {
+    width: 40%;
+    background: gold; }
+
 .container-fluid-vid {
   width: 90%;
   margin: 0 auto; }
