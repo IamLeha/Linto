@@ -6,16 +6,14 @@ main{
     width: 100%;
 }
 .main-container{
-    width: 70%;
-    min-height: 100vh;
+    width: 65%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    
     
     &__title{
         margin-top: 7%;
         width: 40%;
+        margin-left: 10%;
     }
     &__title h3{
         text-align: center;
@@ -35,37 +33,134 @@ main{
         border-top: 1px solid #000;
     }
 
-    &__info{
-        margin-top: 5%;
+    &__top{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        margin-top: 7%;
     }
 
-    &__info-left h4::after{
-        content: "";
-        width: 60px;
-        display: block;
-        border-bottom: 1px solid #000;
-        margin: 0 auto; 
+    &__top-left{
+        width: 40%;
     }
 
-    &__info-right h3{
+    &__top-right{
+        width: 45%;
+    }
+    &__top-right p{
+        margin-bottom: 10%;
+    }
+    &__top-right h2{
+        margin-bottom: 5%;
+    }
+
+    &__bottom{
+        display: flex;
+        justify-content: space-between;
+        margin: 7% 0;
+    }
+
+    &__bottom-left{
+        width: 40%;
+    }
+
+    &__bottom-right{
+        width: 45%;
+    }
+
+    &__bottom-right p{
+        margin-bottom: 3%;
+    }
+    &__bottom-right h3{
         margin-top: 10%;
+        margin-bottom: 1%;
     }
 
-    &__box{
-        margin-top: 10%;
-        background: rgb(224, 187, 187);
-        transform: rotate(-90deg);
-        width: max-content;
-        padding: 2%;
-        margin-left: 16%;
-    }
-
-    &__txt{
-        width: 50%;
-        align-self: flex-end;
-        margin-bottom:5% ;
-    }
+   
+    
 }
+
+.box{
+    background: silver;
+    width: 180px;
+    padding: 30px 0;
+    transform: rotate(-90deg);
+    margin-top: 16%;
+}
+
+.box p {
+    margin-left: 24px;
+}
+
+button {
+    all: unset;
+}
+
+.group 			  { 
+    position:relative; 
+    margin-bottom:45px; 
+  }
+  input 				{
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:300px;
+    border:none;
+    border-bottom:1px solid #000;
+  }
+  input:focus 		{ outline:none; }
+  
+  /* LABEL ======================================= */
+  label 				 {
+    color:#000; 
+    font-size:18px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:5px;
+    top:10px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  
+  /* active state */
+  input:focus ~ label, input:valid ~ label 		{
+    top:-20px;
+    font-size:14px;
+    color:#000;
+  }
+  
+  /* BOTTOM BARS ================================= */
+  .bar 	{ position:relative; display:block; width:315px; }
+  .bar:before, .bar:after 	{
+    content:'';
+    height:2px; 
+    width:0;
+    bottom:1px; 
+    position:absolute;
+    background:#000; 
+  }
+  .bar:before {
+    left:50%;
+  }
+  .bar:after {
+    right:50%; 
+  }
+  
+  /* active state */
+  input:focus ~ .bar:before, input:focus ~ .bar:after {
+    width:50%;
+  }
+  
+  /* HIGHLIGHTER ================================== */
+  .highlight {
+    position:absolute;
+    height:60%; 
+    width:100px; 
+    top:25%; 
+    left:0;
+    pointer-events:none;
+    opacity:0.5;
+  }
+  
 
