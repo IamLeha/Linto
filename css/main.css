@@ -357,7 +357,7 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
     width: 95%;
     margin: 5% auto;
     display: flex;
-    justify-content: space-between; }
+    justify-content: flex-end; }
   .container-col__title-left {
     width: 50%;
     margin-left: 12%; }
@@ -713,6 +713,31 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
 
 video {
   max-width: 640px; }
+
+.title-default {
+  margin-top: 4%;
+  width: 50%;
+  margin-left: 12%; }
+
+.title-default h3::after {
+  content: "";
+  display: block;
+  width: 250px;
+  border-top: 2px solid #000;
+  margin-left: 30%; }
+
+.title-default h1::before {
+  content: "";
+  display: block;
+  width: 250px;
+  border-top: 2px solid #000; }
+
+.title-default h1 {
+  font-size: 45px; }
+
+.title-default h3 {
+  text-align: center;
+  font-size: 24px; }
 
 * {
   padding: 0;
