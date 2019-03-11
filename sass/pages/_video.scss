@@ -19,21 +19,7 @@
         font-size: 60px;
     }
 
-    &__title h1::before {
-        content: "";
-        display: block;
-        width: 100px;
-        margin-bottom: 1%;
-        border-top: 2px solid #000;
-    }
-
-    &__title h3::after {
-        content: "";
-        display: block;
-        width: 300px;
-        margin-top: 1%;
-        border-bottom: 2px solid #000;
-    }
+   
 
     &__card {
         width: 100%;

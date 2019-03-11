@@ -15,23 +15,7 @@ main{
         width: 40%;
         margin-left: 10%;
     }
-    &__title h3{
-        text-align: center;
-    }
-    &__title h3::after{
-        content: "";
-        width: 110px;
-        display: block;
-        border-bottom: 1px solid #000;
-        margin: 0 auto; 
-    }
-
-    &__title h1{
-        content: "";
-        display: block;
-        width: 200px;
-        border-top: 1px solid #000;
-    }
+    
 
     &__top{
         display: flex;

@@ -17,20 +17,6 @@
         width: 200px;   
     }
 
-    &__title h1::before{
-        content: "";
-        display:block;
-        width: 140px;
-        border-top: 2px solid #000;
-    }
-
-    &__title h1::after{
-        content: "";
-        display:block;
-        width: 60px;
-        border-top: 2px solid #000;
-        float: right;
-    }
 
 
     &__main{

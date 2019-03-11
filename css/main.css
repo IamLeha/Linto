@@ -169,18 +169,6 @@
     margin: 5% auto 3% auto; }
   .container-cer__title h3 {
     margin-left: 20%; }
-  .container-cer__title h1::before {
-    content: "";
-    display: block;
-    width: 100px;
-    margin-bottom: 1%;
-    border-top: 2px solid #000; }
-  .container-cer__title h3::after {
-    content: "";
-    display: block;
-    width: 300px;
-    margin-top: 1%;
-    border-bottom: 2px solid #000; }
   .container-cer__card-item {
     width: 35%;
     height: 350px;
@@ -228,19 +216,6 @@ main {
     margin-top: 7%;
     width: 40%;
     margin-left: 10%; }
-  .main-container__title h3 {
-    text-align: center; }
-  .main-container__title h3::after {
-    content: "";
-    width: 110px;
-    display: block;
-    border-bottom: 1px solid #000;
-    margin: 0 auto; }
-  .main-container__title h1 {
-    content: "";
-    display: block;
-    width: 200px;
-    border-top: 1px solid #000; }
   .main-container__top {
     display: flex;
     justify-content: space-between;
@@ -366,17 +341,6 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
   .container-col__title-left h3 {
     text-align: center;
     font-size: 24px; }
-  .container-col__title-left h3::after {
-    content: "";
-    display: block;
-    width: 250px;
-    border-top: 2px solid #000;
-    margin-left: 37%; }
-  .container-col__title-left h2::before {
-    content: "";
-    display: block;
-    width: 250px;
-    border-top: 2px solid #000; }
   .container-col__title p {
     transform: rotate(90deg);
     font-size: 12px; }
@@ -429,17 +393,6 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
   .container__title {
     margin: 5% 0 3% 10%;
     width: 200px; }
-  .container__title h1::before {
-    content: "";
-    display: block;
-    width: 140px;
-    border-top: 2px solid #000; }
-  .container__title h1::after {
-    content: "";
-    display: block;
-    width: 60px;
-    border-top: 2px solid #000;
-    float: right; }
   .container__main {
     display: flex;
     justify-content: space-between;
@@ -475,19 +428,6 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
     width: 30%;
     margin: 4% 0;
     margin-left: 24%; }
-  .container-rep__title h3::after {
-    content: "";
-    display: block;
-    width: 70px;
-    border-top: 2px solid #000;
-    margin-left: 45%; }
-  .container-rep__title h3 {
-    margin-left: 50%; }
-  .container-rep__title h1::before {
-    content: "";
-    display: block;
-    width: 250px;
-    border-bottom: 2px solid #000; }
   .container-rep__card-item {
     display: flex;
     flex-direction: column;
@@ -646,18 +586,6 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
     margin-left: 20%; }
   .container-vid__title h1 {
     font-size: 60px; }
-  .container-vid__title h1::before {
-    content: "";
-    display: block;
-    width: 100px;
-    margin-bottom: 1%;
-    border-top: 2px solid #000; }
-  .container-vid__title h3::after {
-    content: "";
-    display: block;
-    width: 300px;
-    margin-top: 1%;
-    border-bottom: 2px solid #000; }
   .container-vid__card {
     width: 100%;
     display: flex;
@@ -723,14 +651,14 @@ video {
   content: "";
   display: block;
   width: 250px;
-  border-top: 2px solid #000;
+  border-top: 1px solid #000;
   margin-left: 30%; }
 
 .title-default h1::before {
   content: "";
   display: block;
   width: 250px;
-  border-top: 2px solid #000; }
+  border-top: 1px solid #000; }
 
 .title-default h1 {
   font-size: 45px; }

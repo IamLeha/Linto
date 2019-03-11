@@ -17,24 +17,7 @@
         margin-left: 24%;
     }
 
-    &__title h3::after{
-        content: "";
-        display: block;
-        width: 70px;
-        border-top: 2px solid #000;
-        margin-left: 45%;
-    }
-
-    &__title h3{
-        margin-left: 50%;
-    }
-
-    &__title h1::before{
-        content: "";
-        display: block;
-        width: 250px;
-        border-bottom: 2px solid #000;
-    }
+    
 
     &__card-item{
         display: flex;
