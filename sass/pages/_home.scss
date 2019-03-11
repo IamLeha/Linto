@@ -3,95 +3,6 @@
     width: 100%;
     overflow: hidden;
 }
-
-header {
-    position: absolute;
-    z-index: 1000;
-    width: 100%;
-}
-
-.header-container {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    height: 119px;
-
-    &__left {
-        width: 30%;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        padding-top: 2%;
-    }
-
-    &__left-logo {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-    }
-
-    &__left-info {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        -webkit-box-align: end;
-        -ms-flex-align: end;
-        align-items: flex-end;
-    }
-
-    &__left-info a {
-        color: #000;
-    }
-
-    &__right {
-        background: #000;
-        width: 70%;
-        padding: 2% 0;
-    }
-
-    &__right-navbar {
-        width: 90%;
-        margin: 0 auto;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        height: 61px;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-
-    }
-
-    &__right-navbar a {
-        width: 22%;
-        color: #fff;
-        text-align: center;
-        font-size: 11px;
-    }
-}
-
 .bottom {
     position: absolute;
     bottom: 0;
@@ -194,3 +105,9 @@ header {
     -ms-flex-align: center;
     align-items: center;
 }
+
+
+
+
+
+

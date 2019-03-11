@@ -99,7 +99,7 @@ button {
     position:relative; 
     margin-bottom:45px; 
   }
-  input 				{
+.group  input 				{
     font-size:18px;
     padding:10px 10px 10px 5px;
     display:block;
@@ -107,10 +107,10 @@ button {
     border:none;
     border-bottom:1px solid #000;
   }
-  input:focus 		{ outline:none; }
+.group  input:focus 		{ outline:none; }
   
   /* LABEL ======================================= */
-  label 				 {
+.group  label 				 {
     color:#000; 
     font-size:18px;
     font-weight:normal;
@@ -124,7 +124,7 @@ button {
   }
   
   /* active state */
-  input:focus ~ label, input:valid ~ label 		{
+.group  input:focus ~ label, input:valid ~ label 		{
     top:-20px;
     font-size:14px;
     color:#000;
