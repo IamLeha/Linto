@@ -79,16 +79,16 @@
         display: block;
    }
 
-    
-
-    
-
-    &__main-card:nth-child(2n){
-        margin-top: 10%;
+    &__main-card p{
+        align-self: flex-end;
     }
 
-}
+    
 
+}
+.right p{
+    align-self: flex-start;
+}
 
 
 
