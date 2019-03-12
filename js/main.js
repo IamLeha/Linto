@@ -1,7 +1,7 @@
 $('.slider').slick({
     prevArrow: $('.bottom__box-arrow-prev'),
     nextArrow: $('.bottom__box-arrow-next'),
-    autoplay: true
+    /*autoplay: true*/
 });
 
 

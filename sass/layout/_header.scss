@@ -216,7 +216,6 @@ header {
 .nav-burger__checkbox:checked~.header-container__right-navbar a {
 
     display: block;
-    margin-bottom: 30px !important;
     color: #000;
     font-size: 20px;
     width: 100%;
@@ -230,7 +229,7 @@ header {
     position: absolute;
     justify-content: baseline !important;
     top: 119px;
-    height: 84vh;
+    height: 87vh;
     left: 0;
     background: white;
     width: 100%;

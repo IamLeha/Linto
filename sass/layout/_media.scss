@@ -1,0 +1,275 @@
+@media screen and (max-width: 1160px) {
+    .header-container {
+
+        &__left {
+            width: 45%;
+        }
+
+        &__right {
+            width: 55%;
+        }
+    }
+
+    .slick-slide img {
+        display: block;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .header-container {
+
+        &__left {
+            width: 70%;
+        }
+
+        &__right {
+            width: 15%;
+        }
+    }
+
+
+    .second-slide{
+        display: flex !important;
+        justify-content: center;
+    }
+
+    .nav-burger {
+        left: 46%;
+    }
+
+    .bottom{
+
+        &__box{
+            width: 50%;
+        }
+    }
+    .big-slide{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .big-txt{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .big-txt h2{
+        margin-left: 45%;
+    }
+
+    .big-txt h3{
+        margin-left: 50%;
+        margin-bottom: 3%;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 576px) {
+    .header-container {
+        
+
+        &__left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &__left-info {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            display: none;
+        }
+
+        &__left-logo {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .nav-burger {
+        left: 36%;
+    }
+
+    .bottom{
+
+        &__box{
+            width: 70%;
+            height: 120px;
+        }
+    }
+
+    .big-slide{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .big-txt{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .big-txt h2{
+        margin-left: 45%;
+    }
+
+    .big-txt h3{
+        margin-left: 50%;
+        margin-bottom: 3%;      
+    }
+}
+
+
+@media screen and (max-width: 426px) {
+    .header-container {
+
+        
+        &__right {
+            width: 20%;
+        }
+    }
+
+    
+
+    .bottom{
+
+        &__box{
+            width: 100%;
+        }
+
+        &__media{
+            display: none;
+        }
+    }
+
+    .first-slide{
+
+        &__txt{
+            margin-bottom: 6%;
+            margin-left: 10%;
+        }
+        
+        &__txt h1{
+            font-size: 27px;
+        }
+
+        &__txt h2{
+            font-size: 16px;
+        }
+
+        &__txt h3{
+            font-size: 15px;
+        }
+
+        &__img {
+            margin-left: 10%;
+        }
+        &__img img{
+            width: 260px;
+        }
+    }
+
+    .second-slide{
+
+        &__txt{
+            margin-bottom: 6%;
+            margin-left: 5%;
+        }
+        
+        &__txt h1{
+            font-size: 27px;
+        }
+
+        &__txt h2{
+            font-size: 16px;
+        }
+
+        &__txt h3{
+            font-size: 15px;
+        }
+
+        &__img {
+        }
+        &__img img{
+            width: 160px;
+        }
+    }
+
+    .third-slide{
+
+        &__txt{
+            margin-bottom: 6%;
+            margin-left: 5%;
+        }
+        
+        &__txt h1{
+            font-size: 27px;
+        }
+
+        &__txt h2{
+            font-size: 16px;
+        }
+
+        &__txt h3{
+            font-size: 15px;
+        }
+
+        &__img {
+        }
+        &__img img{
+            width: 160px;
+        }
+    }
+
+    .fourth-slide{
+
+        &__txt{
+            margin-bottom: 6%;
+        }
+        
+        &__txt h1{
+            font-size: 27px;
+        }
+
+        &__txt h2{
+            font-size: 16px;
+        }
+
+        &__txt h3{
+            font-size: 15px;
+        }
+
+        &__img {
+            margin-left: 24%;
+        }
+        &__img img{
+            width: 160px;
+        }
+    }
+
+    .big-txt h2{
+        margin-left: 36%;
+    }
+
+    .big-txt h3{
+        margin-left: 43%;
+        margin-bottom: 3%;      
+    }
+    .nav-burger__checkbox:checked~.header-container__right-navbar{
+        height: 84vh;
+    }
+}
+
+
+@media screen and (max-width:330px){
+    .nav-burger__checkbox:checked~.header-container__right-navbar{
+        height: 79vh;
+    }
+}
