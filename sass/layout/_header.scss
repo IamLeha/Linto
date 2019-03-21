@@ -17,42 +17,34 @@ header {
 
     &__left {
         width: 30%;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        padding-top: 2%;
-    }
-
-    &__left-logo {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-    }
-
-    &__left-info {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
         flex-direction: column;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
         justify-content: space-between;
-        -webkit-box-align: end;
-        -ms-flex-align: end;
-        align-items: flex-end;
+        padding-top: 1%;
     }
 
-    &__left-info a {
+    &__left a {
         color: #000;
+    }
+
+    &__left-top {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    &__left-top-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    &__left-bottom-signIn {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
     }
 
     &__right {
@@ -79,6 +71,11 @@ header {
 
     }
 
+    &__right-navbar img {
+        width: 25px;
+        margin-right: 5px;
+    }
+
     &__right-navbar a {
         width: 22%;
         color: #fff;
@@ -87,6 +84,9 @@ header {
     }
 }
 
+.mob-link {
+    display: none;
+}
 
 .bottom {
     position: absolute;
@@ -187,10 +187,6 @@ header {
 }
 
 
-
-
-
-
 .nav-burger {
     width: 25px;
     height: 23px;
@@ -209,43 +205,28 @@ header {
     display: none;
 }
 
-.nav-burger__checkbox:checked  ~ .nav-burger {
+.nav-burger__checkbox:checked~.nav-burger {
     background-image: url("../../img/icon-cross.svg");
 }
 
 .nav-burger__checkbox:checked~.header-container__right-navbar a {
 
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #000;
     font-size: 20px;
     width: 100%;
-
-
-    
 }
+
 
 .nav-burger__checkbox:checked~.header-container__right-navbar {
     display: flex;
     position: absolute;
     justify-content: baseline !important;
     top: 119px;
-    height: 87vh;
+    height: calc(100vh - 119px);
     left: 0;
     background: white;
     width: 100%;
 }
-
-
-
-@media screen and (max-width: 900px) {
-    .nav-burger {
-        display: block;
-        position: relative;
-    }
-
-    .header-container__right-navbar a {
-        display: none;
-    }
-
-}
-
