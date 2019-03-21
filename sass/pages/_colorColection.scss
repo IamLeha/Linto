@@ -1,30 +1,30 @@
-
-.container-fluid-colection{
+.container-fluid-colection {
     width: 100%;
 
 }
 
-.container-col{
+.container-col {
     width: 100%;
 
-    &__title{
+    &__title {
         width: 95%;
         margin: 5% auto;
         display: flex;
         justify-content: flex-end;
+        margin-bottom: 7%;
     }
 
-    &__title-left{
+    &__title-left {
         width: 50%;
         margin-left: 12%;
     }
 
     &__title-left h2 {
-        font-size: 45px; 
+        font-size: 45px;
     }
 
     &__title-left h3 {
-        text-align: center; 
+        text-align: center;
         font-size: 24px;
     }
 
@@ -33,66 +33,69 @@
         font-size: 12px;
     }
 
-    &__main{
+    &__main {
         width: 100%;
-        display: flex;
-        flex-direction: column;
         background: rgb(187, 187, 187);
     }
 
-    &__main-line{
-        width: 95%;
-        display: flex;
-        justify-content: space-between;
-    }
-
-
-    &__main-line:not(:first-child){
-        margin-top: -6%;
-    }
-
-    &__main-card{
+    &__main-card {
         padding: 1%;
-        width: 12%;
+        width: 14%;
         height: 200px;
         display: flex;
         background: white;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
     }
-    &__main-card p{
+
+    &__main-card:nth-last-child(odd){
+        margin-top:8%;
+    }
+    
+    &__main-card:not(.mt):nth-last-child(even){
+        margin-top: -5%;
+    }
+
+    &__main-card p {
         margin-top: 9%;
         margin-left: -10%;
     }
 
-    &__main-card img{
+    &__main-card img {
         width: 120px;
         display: none;
     }
-    
-    &__main-card:hover svg{
-         display: none;
-    }
-    &__main-card:hover img{
-        display: block;
-   }
 
-    &__main-card p{
-        align-self: flex-end;
+    &__main-card:hover svg {
+        display: none;
+    }
+
+    &__main-card:hover img {
+        display: block;
     }
 
     
 
 }
-.right p{
+
+.color {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mt{
+    margin-top: 0;
+}
+
+.right p {
     align-self: flex-start;
 }
 
 
 
-.container__main-colection-card p{
+.container__main-colection-card p {
     text-align: center;
 }
-
